@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnikolov <mnikolov@student.42lausanne.ch>  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/12/01 11:13:45 by mnikolov          #+#    #+#             */
+/*   Updated: 2021/12/09 14:06:07 by mnikolov         ###   ########.fr       */
+/*                                                                            */
+/**************************************************************************** */
+
 #include "get_next_line.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)

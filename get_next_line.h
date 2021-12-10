@@ -1,9 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mnikolov <mnikolov@student.42lausanne.ch>  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/12/01 11:13:45 by mnikolov          #+#    #+#             */
+/*   Updated: 2021/12/09 14:06:07 by mnikolov         ###   ########.fr       */
+/*                                                                            */
+/**************************************************************************** */
+
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
 #ifndef BUFFER_SIZE
-#  define BUFFER_SIZE	10000000
-# endif
+# define BUFFER_SIZE	10000000
+#endif
 
 # include <sys/types.h>
 # include <sys/uio.h>
